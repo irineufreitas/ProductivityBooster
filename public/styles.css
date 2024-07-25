@@ -1,0 +1,120 @@
+/* Typography */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@700&display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #F5F5F5;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header button {
+  margin-top: 10px;
+  padding: 0.5em 1em;
+  background-color: #FFC107;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+header button:hover {
+  background-color: #FFA000;
+}
+
+main {
+  padding: 2em;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+#task-form, #goal-form {
+  display: flex;
+  gap: 10px;
+}
+
+#task-form input, #goal-form input, #task-form select, #task-form button, #goal-form button {
+  padding: 0.5em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#task-form button, #goal-form button {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+#task-form button:hover, #goal-form button:hover {
+  background-color: #388E3C;
+}
+
+#timer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+#timer button {
+  padding: 0.5em 1em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#timer button:hover {
+  background-color: #388E3C;
+}
+
+#time-display {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+  color: #333;
+}
+
+#task-list, #goal-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#task-list li, #goal-list li {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+#task-list li span, #goal-list li span {
+  margin-right: 10px;
+}
+
+#charts {
+  background-color: white;
+  padding: 1em;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
